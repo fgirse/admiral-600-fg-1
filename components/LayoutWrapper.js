@@ -19,7 +19,7 @@ const LayoutWrapper = ({ children }) => {
                 <div className="mr-3 xl-w-36">
                   <Logo />
                 </div>
-                <div flex flex-col grid-x-3 justify-start items-center >
+                <div flex-row grid-x-3 justify-start items-strech >
           <div className='w-6 mr-5 xl:w-10'>
        11   <Image src="/phone-Illustration.png" layout="responsive" width="145" height="145"></Image>
           </div>

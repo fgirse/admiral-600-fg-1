@@ -14,7 +14,12 @@ export default function Kontact()  {
 
 <section class="-mt-36px-2 pt-32 bg-bluegray-900 md:px-0">
 <div className="-mt-52  container items-center max-w-6xl px-8 mx-auto xl:px-5">
-<Heading1 className="w-11/12 mx-auto">WOHIN?</Heading1>
+<div className='mt-24 mx-auto w-10/12'>
+<Image className="mt-24" src="/LogoAlt.png" layout="responsive" alt="Logo alt" height="280" width="1049"  />
+</div>
+
+<Heading1 className="hidden lg; block lg;w-11/12 lg:mx-auto">WOHIN?</Heading1>
+<h1 className='mt-1 text-center text-yellow-600 text-7xl md:text-6xl lg:hidden'>WOHIN?</h1>
     <div class="mt-12 container items-center max-w-6xl px-5 mx-auto space-y-6 text-center">
     <h1 className="text-4xl font-extrabold tracking-tight text-left text-gray-300 sm:text-5xl md:text-6xl md:text-center">
                     <span className="block">LAGEPLAN <span class="block mt-1 text-yellow-400 lg:inline lg:mt-0">Rettungsanker Freiburg</span></span>

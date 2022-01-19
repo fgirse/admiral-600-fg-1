@@ -109,11 +109,11 @@ mt<section className='-mt-[50vh] ml-6 md:mx-auto md:mt-36 lg:-mt-36 xl:mt-1 w-11
         <Image className='absolute' src="/Astraballons.png" alt="portrait" layout="responsive" height={2064} width={1739} />
       </div>
    
-      <div className='w-7/12 absolute -left-6 transform -translate-y-60 md:w-2/12 xl:transform xl:w-4xl:-translate-y-[50vh]'>
+      <div className='w-7/12 z-10 md:absolute -left-6 transform -translate-y-36 md:w-2/12 xl:transform xl:w-4xl:-translate-y-[50vh]'>
         <Image src="/lighthousebw.svg" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
-      <h1 className="mt-2 text-center text-yellow-400 text-7xl md:hidden">Die Kneipe</h1>
-      <div className=' absolute w-6/12 left-0 top-80  md:2/12 md:transform:-translate-y-48 xl:transform xl:-translate-y-[56vh]' >
+      <h1 className="z-30 -mt-44 relative text-center text-yellow-400 text-7xl md:hidden">Die Kneipe</h1>
+      <div className='hidden absolute w-1/12 left-0 top-80  md:2/12 md:transform:-translate-y-48 xl:transform xl:-translate-y-[56vh]' >
         <Image src="/rettungsring.png" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
       <div className=' transform -translate-y-6 absolute w-4/12  md:transform:-translate-y-24 lg:transform lg:-transform: lg:translate-y-60' >
@@ -136,7 +136,7 @@ mt<section className='-mt-[50vh] ml-6 md:mx-auto md:mt-36 lg:-mt-36 xl:mt-1 w-11
                 boxShadow: "10px 5px 10px rgba(244, 216, 154, 0.9)",
               }} onGotPointerCapture={2}
             >
-              <div className='border- border-gray-100'>
+              <div className='mx-auto border- border-gray-100'>
                 <Astra height="24vh" width="vw"></Astra>
               </div>
               <Text>
@@ -190,7 +190,7 @@ mt<section className='-mt-[50vh] ml-6 md:mx-auto md:mt-36 lg:-mt-36 xl:mt-1 w-11
 
       </section>
      
-      <Heading0 className="mt-2 lg: ">Impressionen Rettungsanker</Heading0>
+      <Heading0 className="mt-0 lg: ">Impressionen Rettungsanker</Heading0>
       {/*<h1 className="text-center text-yellow-400 text-5xl md:hidden">Impressionen Rettungsanker</h1>*/}
       <div className='w-6/12 lg:w-2/12 absolute lg:transform lg:-translate-y-36 xl:transform xl-translate-y-24'>
         <Image src="/Albers_Illu_white.png" top-5 alt="Impressionen" height="208 " width="195" layout="responsive" />
