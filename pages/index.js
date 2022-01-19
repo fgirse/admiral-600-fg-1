@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <>
 
- <section className='W-12/12'>
+ <section className='ml-2 p-3 mx-auto lg:w-11/12'>
   
  <div className="border-t border-b border-yellow-400 bg-logo h-[75vh] w-full bg-contain bg-no-repeat w-full lg:h-[vh] lg:bg-no-repeat lg:bg-100/66 lg:bg-hero">
     
@@ -62,7 +62,7 @@ export default function Home() {
 
 
 {/*======================================================================= SDCTION A ===========================================================*/}
-mt<section className='-mt-[47vh] md:mx-auto md:mt-36 lg:-mt-36 xl:mt-1 w-11/12 '>
+mt<section className='-mt-[50vh] ml-6 md:mx-auto md:mt-36 lg:-mt-36 xl:mt-1 w-11/12 '>
 
 
 <div className="mt-4 flex flex-wrap -mx-4 -mb-4 md:mb-0 md:gap-x-5 lg:gap-x-36">
@@ -82,8 +82,8 @@ mt<section className='-mt-[47vh] md:mx-auto md:mt-36 lg:-mt-36 xl:mt-1 w-11/12 '
           {/*==================================================================================================================================*/}
 
 
-  <div classNamemt="w-9/12 mx-auto md:w-9/12 px-20 mb-4 md:mb-0">
-              <div  className="mt-5 mx-auto ml-10 bg-red-900 h-full flex flex-col justify-center items-center rounded-lg border shadow-xl shadow-gray-500/40 md:flex-row md:max-w-6xl lg:bg-red-800 xl:bg-red-900 xl:max-w-5xl xl:11/12 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+  <div classNamemt="w-8/12 mx-auto md:w-8/12 px-20 mb-4 md:mb-0">
+              <div  className="max-w-[95vw] mt-5 mx-auto ml-1 bg-red-900 h-full flex flex-col justify-center items-center rounded-lg border shadow-xl shadow-gray-500/40 md:flex-row md:max-w-6xl lg:bg-red-800 xl:bg-red-900 xl:max-w-5xl xl:11/12 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
                            <div className="xl:w-[70vw] xl:h-full xl:mt-48 xl:ml-5">
                              
                                   
@@ -104,24 +104,25 @@ mt<section className='-mt-[47vh] md:mx-auto md:mt-36 lg:-mt-36 xl:mt-1 w-11/12 '
 </section>
 {/*========================== ENDE SECTION A ===================================================*/}
  
-<Heading2 className='mx-auto z-20 ml-36 mt-12 md:mt-0 md:mr-0'>Die Kneipe</Heading2> 
+<Heading2 className='mx-auto z-20 ml-28 mt-12 md:mt-0 md:mr-0'>Die Kneipe</Heading2> 
        <div className='right-3 transform -translate-y-20 absolute md:w-6/12 md:right-16 lg:w-2/12 xl:w-4/12 float-right md:transform md:-translate-y-48 xl:transforn z-20 xl:-translate-y-[60vh]' >
         <Image className='absolute' src="/Astraballons.png" alt="portrait" layout="responsive" height={2064} width={1739} />
       </div>
    
-      <div className='w-7/12 transform -translate-y-60 md:w-2/12 xl:transform xl:w-4xl:-translate-y-[50vh]'>
+      <div className='w-7/12 absolute -left-6 transform -translate-y-60 md:w-2/12 xl:transform xl:w-4xl:-translate-y-[50vh]'>
         <Image src="/lighthousebw.svg" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
-      {/*{<h1 className="text-center text-yellow-400 text-7xl md:hidden">Die Kneipe</h<div className=' absolute w-6/12 left-0 top-80  md:2/12 md:transform:-translate-y-48 xl:transform xl:-translate-y-[56vh]' >
+      <h1 className="mt-2 text-center text-yellow-400 text-7xl md:hidden">Die Kneipe</h1>
+      <div className=' absolute w-6/12 left-0 top-80  md:2/12 md:transform:-translate-y-48 xl:transform xl:-translate-y-[56vh]' >
         <Image src="/rettungsring.png" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
       <div className=' transform -translate-y-6 absolute w-4/12  md:transform:-translate-y-24 lg:transform lg:-transform: lg:translate-y-60' >
         <Image src="/" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
 
-      <section className='-mt-72 ml-5 md:mt-20 mx=auto w-11/12 lg:mt-36 xl:-mt-[50vh]'>
+      <section className='-mt-24 ml-3 md:mt-36 mx=auto w-11/12 lg:mt-36 xl:-mt-[50vh]'>
         <ThemeProvider theme={theme}>
-          <div className="mx-auto grid grid-cols-1 gap-3 justify-center items-center p-2 ml-2 mt-24 md:grid lg:ml-36 xl:ml-60 lg:grid-cols-3 lg:justify-around lg:items-center lg:gap-16" >
+          <div className="mx-auto grid grid-cols-1 gap-1 justify-center items-center p-2 ml-2 mt-24 md:grid lg:ml-36 xl:ml-60 lg:grid-cols-3 lg:justify-around lg:items-center lg:gap-16" >
 
           <Card
               mb={3}
