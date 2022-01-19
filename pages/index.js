@@ -7,7 +7,6 @@ import { Heading0 } from '../components/Headings/Heading0.styles';
 import { Heading1 } from '../components/Headings/Heading1.styles';
 import { Heading2 } from '../components/Headings/Heading2.styles';
 import { Heading3 } from '../components/Headings/Heading3.styles';
-import Popup from '../components/popup'
 import Image from 'next/image';
 import sketchy from "theme-ui-sketchy-preset"; 
 
@@ -49,7 +48,7 @@ export default function Home() {
 
  <section className='W-12/12'>
   
-   <div className="border-t border-b border-yellow-400 bg-logo h-[75vh] w-full bg-contain bg-no-repeat w-full lg:h-[vh] lg:bg-no-repeat lg:bg-100/66 lg:bg-hero">
+ <div className="border-t border-b border-yellow-400 bg-logo h-[75vh] w-full bg-contain bg-no-repeat w-full lg:h-[vh] lg:bg-no-repeat lg:bg-100/66 lg:bg-hero">
     
     
   
