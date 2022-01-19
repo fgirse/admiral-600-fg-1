@@ -1,4 +1,4 @@
-import { getAllFilesFrontMatter } from '@/lib/mdx';
+
 import StyledButton from '@/components/Buttons/Button';
 import Flensburger from '../components/icons/svg/SVGFlensburger';
 import Ganter from '../components/icons/svg/SVGGanter';
@@ -318,6 +318,3 @@ m
   }
   
 }
-
-  
-
