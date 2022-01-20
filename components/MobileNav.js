@@ -21,7 +21,7 @@ const MobileNav = () => {
     <div className="sm:hidden">
       <button
         type="button"
-        className="w-8 h-8 ml-1 mr-2 rounded "
+        className="w-8 h-8 ml-1 mr-2 md:ml- md-bg-red-500 rounded "
         aria-label="Toggle Menu"
         onClick={onToggleNav}
       >
@@ -29,7 +29,7 @@ const MobileNav = () => {
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 20 20"
           fill="currentColor"
-          className="text-gray-100 dark:text-gray-100"
+          className="text-green-100 dark:text-gray-100"
         >
           {navShow ? (
             <path
@@ -47,7 +47,7 @@ const MobileNav = () => {
         </svg>
       </button>
       <div
-        className={`fixed w-full h-full top-24 right-0 bg-gray-700 dark:bg-gray-800 opacity-95 z-10 transform ease-in-out duration-300 ${
+        className={`fixed w-full h-full top-24 right-0 bg-gray-700 dark:bg-gray-800 opacity-95 z-10 transform ease-in-out duration-9yarndev00 ${
           navShow ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
@@ -62,10 +62,10 @@ const MobileNav = () => {
             <div key={link.title} className="px-12 py-4">
               <Link
                 href={link.href}
-                className="text-3xl w-screen font-bold tracking-widest h-full w-full text-gray-100 hover:text-red-800 hover:bg-yellow-400
+                className="text-4xl w-full font-bold tracking-widest h-full w-screen text-yellow-400 hover:text-red-800 hover:bg-yellow-400
                 
    
-                -bachh   dark:text-gray-100 bg-yello"
+                -bachh   dark:text-gray-100 bg-yellow"
                 onClick={onToggleNav}
               >
                 {link.title}
