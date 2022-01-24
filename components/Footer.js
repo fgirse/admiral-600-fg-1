@@ -15,17 +15,22 @@ export default function Footer() {
           <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size="6" />
           <SocialIcon kind="twitter" href={siteMetadata.twitter} size="6" />
         </div>
-        <div className="flex mb-2 space-x-2 text-sm text-gray-300 dark:text-gray-400 font-mono ">
-          <div>{siteMetadata.author}</div>
-          <div>{` • `}</div>
+        <div className="mx-autoflex flex-row items-center justify-center mb-2 space-x-2 text-xs text-gray-300 dark:text-gray-400 font-mono ">
+          <div className='mx-auto flex flex-row lg:text-sm justify-center gap-x-2'>
+          {/*<div>{siteMetadata.author}</div>
+          <div>{` • `}</div>*/}
           <div>{`© ${new Date().getFullYear()}`}</div>
           <div>{` • `}</div>
           <Link href="/">{siteMetadata.title}</Link>
         </div>
-        <div className="mb-8 text-sm font-mono text-gray-300 dark:text-gray-400">
-          <p>All rights reserved:<span className="text-yellow-400 font-sans"> Medicus Design {` • `} Basel Schweiz</span></p>
+        <div className="mb-8 text-sx md:text-sm font-sans text-gray-300 dark:text-gray-400">
+          <p>All rights reserved:<span className="text-yellow-400 font-serif"> Medicus Design {` • `} Basel Schweiz</span></p>
           
         </div>
+
+          </div>
+         
+        
       </div>
     </footer>
   )

@@ -32,7 +32,7 @@ module.exports = {
       },
 
       backgroundImage: {
-        'hero': "url('../public/static/images/ocean.jpeg')",
+        'hero': "url('/hero.png')",
         "logo": "url('/Logo_Neu.png')",
         "logo-alt": "url('/LogoAlt.png')",
         "noten": "url('/noten.png')",

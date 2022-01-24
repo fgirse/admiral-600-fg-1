@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: 'Die Kiezkneipe- Rettungsanker Freiburg',
+  title: 'Rettungsanker Freiburg',
   author: 'Frank Girse',
   headerTitle: '+49 761 3838 6747',
   description: 'A blog created with Next.js and Tailwind.css',

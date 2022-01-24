@@ -50,12 +50,19 @@ export default function Home() {
   
 
     
- <div className="mx-auto border-t border-b border-yellow-400 bg-logo h-[50vh] w-full bg-100/66 bg-no-repeat w-full lg:h-[66vh] lg:bg-no-repeat lg:bg-100/66 lg:bg-hero">
+ <div style={{"background-image": "url('Hero.png')"}} className="hidden lg:block lg:bg-cover bg-center mx-auto border-t border-b border-yellow-400 bg-logo h-[50vh] w-full bg-100/66 bg-no-repeat w-full lg:h-[66vh] lg:bg-no-repeat lg:bg-100/66 lg:bg-hero">
+ < p classNames="headingc text-1xl text-orange-300 md:text-2xl lg:text-4xl xl:text-5xl">Dein Treffpunkt in Freiburg!!!</p>
+
+ </div>
+ <div style={{"background-image": "url('Logo_Neu.png')"}} className="bg-contain mx-auto border-t border-b border-yellow-400 lg:hidden bg-logo h-[50vh] w-full bg-100/66 bg-no-repeat w-full lg:h-[66vh] lg:bg-no-repeat lg:bg-100/66 lg:bg-hero">
+ < p classNames="headingc text-1xl text-orange-300 md:text-2xl lg:text-4xl xl:text-5xl">Dein Treffpunkt in Freiburg!!!</p>
+
+ </div>
     
     
   
-   <Heading3 classNames="w-8 text-1xl text-orange-300 md:text-2xl lg:text-4xl xl:text-5xl">Dein Treffpunkt in Freiburrg!!!</Heading3>
-</div>
+   
+
 
 
    

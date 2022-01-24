@@ -10,14 +10,21 @@
 }
 
 @layer components {
-  
+
   .headingA {
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: #ffffff ;
+    font-family: "Architects Daughter";
   }
   .headingB {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ffcc00 ;
+    font-family: "Architects Daughter";
+  }
+  .headingc {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: orange;
+    font-family: "Architects Daughter";
   }
 
 
@@ -30,6 +37,7 @@ html {
 body {
 
   background-color: red;
+  font-family: "Architects-Daughter";
 }
 
 /* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
