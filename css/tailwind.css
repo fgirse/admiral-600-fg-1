@@ -9,6 +9,20 @@
   @apply hidden;
 }
 
+@layer components {
+  
+  .headingA {
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ffffff ;
+  }
+  .headingB {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffcc00 ;
+  }
+
+
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -20,6 +34,8 @@ body {
 
 /* https://stackoverflow.com/questions/61083813/how-to-avoid-internal-autofill-selected-style-to-be-applied */
 input:-webkit-autofill,
+text:-webkit--text-stroke-color,
+text:-webkit-text-stroke-width,
 input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
 }

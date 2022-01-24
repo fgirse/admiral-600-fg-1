@@ -18,7 +18,7 @@ export default function MyModal() {
         <button
           type="button"
           onClick={openModal}
-          className="w-max-lg px-4 py-6 lg:text-4xl font-medium text-white bg-green-300 hover:bg-green-700 rounded-md bg-opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+          className="w-max-lg text-1xl px-4 py-6 lg:text-4xl font-bold text-white bg-slate-300 hover:bg-slate-500 rounded-md bg-opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
         >
           Kartenillustration Altstadt 
         </button>

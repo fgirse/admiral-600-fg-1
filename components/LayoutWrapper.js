@@ -12,21 +12,21 @@ const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
          <div className="flex flex-col justify-between bg-gray-900 h-screen">
-        <header className="flex items-center justify-between py-10">
+        <header className="md:flex-wrap lg:flex items-center justify-center xl:justify-between py-10">
           <div>
             <Link href="/" aria-label="Tailwind CSS Blog">
               <div className="flex items-center justify-between">
                 <div className="mr-3 xl-w-36">
                   <Logo />
                 </div>
-                <div flex-row grid-x-3 justify-start items-strech >
-          <div className='w-6 mr-5 xl:w-10'>
-       11   <Image src="/phone-Illustration.png" layout="responsive" width="145" height="145"></Image>
+                <div className="flex flex-col lg:flex lg:flex-row gap-x-3 justify-start items-strech" >
+          <div className='bg-[#ccff00] w-6 mr-5 xl:w-10'>
+          <Image src="/phone-Illustration.png" layout="responsive" width="145" height="145"></Image>
           </div>
           
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="h-6 text-gray-300 text-xs xl:text-2xl font-semibold lg:block">
+                  <div className="h-6 text-gray-300 bg-red-700 text-xs xl:text-2xl font-semibold lg:block">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (

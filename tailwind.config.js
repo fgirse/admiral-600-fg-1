@@ -1,5 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
+const shadow = require('tailwindcss-textshadow')
 
 module.exports = {
   mode: 'jit',
@@ -7,11 +8,32 @@ module.exports = {
   darkMode: 'class',
   theme: {
 
-    
+    textShadow: {
+      'default': '0 10px 0 #ffffff',
+      'md': '0 2px 2px #ffffff',
+      'h1': '0 0 10px #FFDDCC, 0 0 5px #0000FF',
+      
+    textFillColor: theme => theme('borderColor'),
+    textStrokeColor: theme => theme('borderColor'),
+    textStrokeWidth: theme => theme('borderWidth'),
+    paintOrder: {
+      'fsm': { paintOrder: 'fill stroke markers' },
+      'fms': { paintOrder: 'fill markers stroke' },
+      'sfm': { paintOrder: 'stroke fill markers' },
+      'smf': { paintOrder: 'stroke markers fill' },
+      'mfs': { paintOrder: 'markers fill stroke' },
+      'msf': { paintOrder: 'markers stroke fill' },
+    },
     extend: {
+
+      textShadow: {
+        '2xl': '1px 1px 5px rgb(254 254 43 / 50%)',
+        '3xl': '0 0 3px rgba(0, 0, 0, .8), 0 0 5px rgba(0, 0, 0, .9)',
+      },
+
       backgroundImage: {
-        'hero': "url('/Hero.png')",
-        "logo": "url('/Logoneu.png')",
+        'hero': "url('../public/static/images/ocean.jpeg')",
+        "logo": "url('/Logo_Neu.png')",
         "logo-alt": "url('/LogoAlt.png')",
         "noten": "url('/noten.png')",
         "piano": "url('/piano.png')",
@@ -170,13 +192,30 @@ module.exports = {
               color: theme('colors.gray.100'),
               borderLeftColor: theme('colors.gray.700'),
             },
+            
           },
+          plugins: [
+            require('tailwindcss/defaultTheme'),
+            require('tailwindcss/colors'),
+            require('tailwindcss-textshadow'),
+            require('autoprefixer'),
+          ]
         },
       }),
     },
   },
-  variants: {
+
+
+
+  variants: { // all the following default to ['responsive']
+    textFillColor: ['responsive'],
+    textStrokeColor: ['responsive'],
+    textStrokeWidth: ['responsive'],
+    paintOrder: ['responsive'],
     typography: ['dark'],
   },
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
+
+
+}
+
 }
