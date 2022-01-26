@@ -24,7 +24,7 @@ export default function Footer() {
           <Link href="/">{siteMetadata.title}</Link>
         </div>
         <div className="mb-8 text-sx md:text-sm font-sans text-gray-300 dark:text-gray-400">
-          <p>All rights reserved:<span className="text-yellow-400 font-serif"> Medicus Design {` • `} Basel Schweiz</span></p>
+          <p>All rights reserved:<span className="text-yellow-400 font-ad"> Medicus Design {` • `} Basel Schweiz</span></p>
           
         </div>
 

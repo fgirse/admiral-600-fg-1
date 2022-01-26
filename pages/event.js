@@ -31,10 +31,10 @@ import {
 function event() {
     return (
         <>
-<section className="px-2 py-32 bg-slate-700 md:px-0">
-  <div className="container items-center max-w-6xl px-8 mx-auto xl:px-5">
-    <wrapper className=" mx-auto border-t border-b border-yellow-400 bg-logo h-[75vh] w-full bg-contain bg-no-repeat w-full lg:h-[vh] lg:bg-no-repeat lg:bg-100/66 lg:bg-hero">
-    <div className='xl:mt-24 w-9/12 lg:w-4/12 xl:w-6/12'>
+<section className="px-2 py- bg-slate-700 md:px-0">
+  <div className="container h-full bg-yellow-300/50 items-center max-w-7xl px-8 mx-auto xl:px-5">
+    <wrapper className=" mx-auto border-t border-b border-yellow-400 bg-logo h-[75vh] w-full bg-contain bg-no-repeat lg:h-[70vh] lg:bg-no-repeat lg:bg-100/66 lg:bg-'hero'">
+    <div className='xl:mt- w-9/12 lg:w-4/12 xl:w-6/12'>
                   <Image src="/LogoAlt.png" layout="responsive" alt="Logo-alt" width="1049" height="230" />
                 </div>
 
@@ -45,7 +45,7 @@ function event() {
             <span className="block xl:inline">privater oder business Anlass?</span>
             Dein Event<span className="block text-orange-600 xl:inline"> ! </span>
           </h1>
-          <p className="mx-auto text-base text-gray-400 sm:max-w-md lg:text-xl md:max-w-3xl lg:max-w-lg lg:text-xl 2xl:text-2xl">Wir planen gerne für Sie Ihren persönlichen Event - auf Wunsch Catering vollumfänglich möglich. Sprechen Sie uns an oder kontaktieren Sie uns per mail....</p>
+          <p className="mx-auto text-base text-gray-400 sm:max-w-md md:max-w-3xl lg:max-w-lg lg:text-xl 2xl:text-2xl">Wir planen gerne für Sie Ihren persönlichen Event - auf Wunsch Catering vollumfänglich möglich. Sprechen Sie uns an oder kontaktieren Sie uns per mail....</p>
           <div className="relative flex flex-col sm:flex-row sm:space-x-4">
             <a href="#_" className="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-yellow-600 rounded-md sm:mb-0 hover:bg-yellow-400 sm:w-auto">
               email Rettungsanker

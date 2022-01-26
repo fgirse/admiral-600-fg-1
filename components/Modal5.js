@@ -2,7 +2,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 import Image from 'next/image'
 export default function MyModal5() {
-  let [isOpen, setIsOpen] = useState(true)
+  let [isOpen, setIsOpen] = useState(false)
 
   function closeModal() {
     setIsOpen(false)
@@ -67,19 +67,24 @@ export default function MyModal5() {
                   Dein Event im Rettungsanker
                 </Dialog.Title>
                 <div className="mt-2">
-                <div className="mb-12 container items-center max-w-sm px-5 mx-auto mt-16 text-cente border border-gray-50 shadow-2xl shadow-gray-400">
-                        <Image src="/astraballons.png" alt="Illuustration Ballons" height="900" width="955"/>
-                        <h1 className="mt-2 mb-10 text-gray-100 text-center text-2xl">Dein persönlicher oder geschäftlicher Event!!! </h1>
+                <p className="text-justify text-gray-100 text-2xl">Der Rettungsanker und seine Räumlichkeiten sind eine ideale Location um Ihre privaten oder geschäftlichen Anlässe wie Geburtstage, Hochzeiten und Verlobungen, Firmen- oder Belegschaftspartys zu gestalten. Im Rahmen einer "geschlossenen Gesellschaft steht Ihnen der Rettungsanker mit seinen Räumlichkeiten für Ihre Feierlichkeiten zur Verfügung. Auch können wir Ihnen - falls dies erwünscht - ein vollumfängliches Catering anbieten. Hier sind Ihren Wünschen im Grunde genommen keine Grenzen gesetzt. Unsere Koperationspartner sind für ausgezeichnete und iddenreiche Menues oder Buffees ausgewiesen und werden nichts unversucht lassen Ihre Wünsche und Ideen umzusetzten. 
+                Nähere Informationen zur Planung Ihres Events besprechen wir am sinnvollsten nach Vereinbarung eines persönlichen Termins. Senden Sie uns eine email oder Sprechen Sie uns direkt im Rettungsanker an!!! Wir freuen uns Ihre Feierlichkeiten professionell begleiten zu dürfen.
+                MichaelSchreck und das Team Rettungsanker." </p>
                 </div>
-                </div>
-
-                <div className="mt-1">
+                <div className="mt-5 flex flex-row justify-evenly gap-5">
                   <button
                     type="button"
-                     className="inline-flex justify-center px-4 py-2 text-xl md:text-5xl font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                     className="inline-flex justify-center px-4 py-2 text-xl md:text-5xl font-medium font-sans text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                     onClick={closeModal}
                   >
                     zurück
+                  </button>
+                  <button
+                    type="button"
+                     className="inline-flex justify-center px-4 py-2 text-xl md:text-5xl font-medium font-sans text-gray-100 bg-orange-600 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
+                    onClick={closeModal}
+                  >
+                    email
                   </button>
                 </div>
               </div>

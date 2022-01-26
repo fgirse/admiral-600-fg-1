@@ -47,22 +47,22 @@ const MobileNav = () => {
         </svg>
       </button>
       <div
-        className={`fixed w-full h-full top-24 right-0 bg-gray-700 dark:bg-gray-800 opacity-95 z-10 transform ease-in-out duration-9yarndev00 ${
+        className={`fixed mt-5 w-full h-full top-28 right-0 bg-gray-700 dark:bg-gray-800 opacity-95 z-10 transform ease-in-out duration-9yarndev00 ${
           navShow ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         <button
           type="button"
           aria-label="toggle modal"
-          className="fixed w-full h-full cursor-auto focus:outline-none"
+          className="mt-5 fixed w-full h-full cursor-auto focus:outline-none"
           onClick={onToggleNav}
         ></button>
-        <nav className="fixed h-full mt-8">
+        <nav className="fixed h-full mt-12">
           {headerNavLinks.map((link) => (
             <div key={link.title} className="px-12 py-4">
               <Link
                 href={link.href}
-                className="text-4xl w-full font-bold tracking-widest h-full w-screen text-yellow-400 hover:text-red-800 hover:bg-yellow-400
+                className="text-3xl border-t-5 font-bold tracking-widest h-full w-screen text-yellow-400 hover:text-red-800 hover:bg-yellow-400
                 
    
                 -bachh   dark:text-gray-100 bg-yellow"

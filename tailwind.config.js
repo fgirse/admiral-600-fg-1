@@ -37,6 +37,7 @@ module.exports = {
         "logo-alt": "url('/LogoAlt.png')",
         "noten": "url('/noten.png')",
         "piano": "url('/piano.png')",
+        "sportarena": "url('/sportarena.jpeg')",
       },
 
       backgroundSize: {
@@ -44,6 +45,7 @@ module.exports = {
         'cover': 'cover',
         'contain': 'contain',
         '100/66': ['100%','66%'],
+        '100/200': ['100%','200%'],
         '16': '4rem',
       },
 
@@ -59,7 +61,7 @@ module.exports = {
         16: '4.0',
       },
       fontFamily: {
-        sans: ['Architects Daughter'],
+        ad: ['AD'],
         mono: ['Segoe UI'],
       },
       colors: {

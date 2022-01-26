@@ -2,7 +2,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
 import Image from 'next/image'
 export default function MyModal() {
-  let [isOpen, setIsOpen] = useState(true)
+  let [isOpen, setIsOpen] = useState(false)
 
   function closeModal() {
     setIsOpen(false)
@@ -63,14 +63,9 @@ export default function MyModal() {
                   as="h3"
                   className=" mb-24 text-2xl text-center font-bold leading-6 text-gray-100 md:text-7xl lg:text-8xl"
                 >
-                  Karte Altstadt Freiburg
+                  Private oder geschäftliche Events im Rettungsanker
                 </Dialog.Title>
-                <div className="relative w-full p-6 flex-auto">
-                  <div className="w-full h-full my-4 text-blueGray-500 text-3xl leading-relaxed sm:text-md">
-
-                  <iframe className="mx-2 md:mx-auto" width="800" height="270" frameborder="5" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=7.846389412879945%2C47.991591082233796%2C7.8532880544662484%2C47.99406817889533&amp;layer=cyclemap&amp;marker=47.992829645428266%2C7.849838733673096" style={{border: "1px solid orange"}}/>
-                  </div>
-                </div>
+                
 
                 <div className="mt-1">
                   <button
