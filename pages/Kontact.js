@@ -12,18 +12,19 @@ export default function Kontact() {
 
             <section class=" mx-auto px-2 pt-5 bg-slate-800 md:px-0">
                 <div className="bg-green-100/10 rounded-2xl container items-center max-w-7xl px-8 mx-auto xl:p-3">
-                    <div className='lg:mt-5 mx-auto w-6/12 md-7/12 lg:w-3/12 xl:w-3/12 2xl:w-3/12'>
+                    <div className='mt-3 lg:mt-5 mx-auto w-6/12 md-7/12 lg:w-3/12 xl:w-3/12 2xl:w-3/12'>
                         <Image className="" src="/LogoAlt.png" layout="responsive" alt="Logo alt" height="280" width="1049" />
                     </div>
                     
                      <div className="mt-6 mb-12 container items-center w-48 max-w-sm px-5 py-4 mx-auto text-center border border-gray-50 shadow-2xl shadow-gray-400 lg:max-w-xl">
                           <Image src="/MapFreiburg.png" alt="Illustration Altstadt" height="900" width="955"/>
-                        <h1 className="mt-2 mb-2 text-gray-100 text-center text-xs">Illusttration Altstadt Freiburg </h1>
+                        <h1 className="mt-2 mb-2 text-gray-100 text-center text-xs">Illustration Altstadt Freiburg </h1>
                         </div>
 
-                    <p className='headingc mt-1 text-center text-gray-50 text-7xl md:text-9xl lg:text-5xl'>WOHIN?</p>
+                    <p className='headingc mt-1 text-center text-gray-50 text-5xl md:text-9xl lg:text-5xl'>WOHIN?</p>
                     <div class="mt-12 container items-center max-w-6xl px-5 mx-auto space-y-6 text-center">
-                        <h1 className="text-3xl font-extrabold tracking-tight text-left text-gray-300 sm:text-5xl md:text-3xl md:text-center">
+                        <h1 className="text-3xl font-extrabold tracking-tight text-left text-gray-300 sm:text-5
+                        3xl md:text-3xl md:text-center">
                             <span className="block">LAGEPLAN <span class="block mt-1 text-yellow-400 lg:inline lg:mt-0">Rettungsanker Freiburg</span></span>
                         </h1>
                         <p className="w-full mx-auto text-base text-justify text-white md:max-w-md sm:text-lg lg:text-2xl xl:text-xl md:text-center">
@@ -41,15 +42,15 @@ export default function Kontact() {
                         </div>
 
 
-                        <p className="w-full mx-auto text-base text-justify text-gray-200 md:max-w-md sm:text-lg lg:text-2xl md:max-w-3xl md:text-center">
+                        <p className="w-full mx-auto text-base text-justify text-gray-200 md:max-w-md sm:text-lg lg:text-2xl md:text-center">
                             Sie finden uns entweder in der Kartenillustration der Freiburger Altstadt oder ganz professionell in der Karte von Street-Map !
                         </p>
-                        <div className="mb-12 relative flex flex-col justify-center md:flex-row md:space-x-4">
+                        <div className="mb-24 relative flex flex-col justify-center md:flex-row md:space-x-4">
                             <div className='w-full mt-3 max'>
                                 <Modal3></Modal3>
 
                             </div>
-                            <div className='w-full mt-3 max'>
+                            <div className='mb-5 w-full mt-3 max'>
                                 <Modal4></Modal4>
 
                             </div>

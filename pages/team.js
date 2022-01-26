@@ -1,9 +1,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
-import StyledHeroTeam from '../components/HeroTeam';
 import Image from 'next/image';
 import { StyledButton } from "@/components/Buttons/Button.styles"
-import StyledHeroSportarena from "@/components/HeroSportarena";
 import SVGSCFreiburgEmblem from "../components/icons/svg/SvgScFreiburg.js"
 import DataSCFreiburg from 'components/DataSCFreiburg.js'
 import LogoAlt from '../components/icons/svg/logoAlt';

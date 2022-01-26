@@ -21,10 +21,6 @@
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/home</loc>
-  </url>
-
-  <url>
     <loc>https://tailwind-nextjs-starter-blog.vercel.app</loc>
   </url>
 
@@ -97,6 +93,10 @@
   </url>
 
   <url>
+    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/feature</loc>
+  </url>
+
+  <url>
     <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/canada</loc>
   </url>
 
@@ -105,23 +105,7 @@
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/feature</loc>
-  </url>
-
-  <url>
     <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/features</loc>
-  </url>
-
-  <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/github</loc>
-  </url>
-
-  <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/markdown</loc>
-  </url>
-
-  <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/math</loc>
   </url>
 
   <url>
@@ -133,7 +117,15 @@
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/multi-author</loc>
+    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/github</loc>
+  </url>
+
+  <url>
+    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/math</loc>
+  </url>
+
+  <url>
+    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/markdown</loc>
   </url>
 
   <url>
@@ -141,7 +133,7 @@
   </url>
 
   <url>
-    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/reflection</loc>
+    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/multi-author</loc>
   </url>
 
   <url>
@@ -150,6 +142,10 @@
 
   <url>
     <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/ols</loc>
+  </url>
+
+  <url>
+    <loc>https://tailwind-nextjs-starter-blog.vercel.app/tags/reflection</loc>
   </url>
 
   <url>

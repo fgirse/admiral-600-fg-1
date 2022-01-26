@@ -38,7 +38,7 @@ const Table = () => {
         let headerElement = ['Rang', 'Emblem', 'Team', 'Spiele ', 'gewonnen','verloren', 'remis', 'Tore', 'Gegentore', 'Differenz', 'Punkte']
 
         return headerElement.map((key, index) => {
-            return <th key={index}>{key.toUpperCase()}</th>
+            return <th className="text-xxs sm:text-xs md:text-md md:text-sm lg:text-xs xl:text-1xl 2xl:2xi" key={index}>{key.toUpperCase()}</th>
         })
     }
 
@@ -46,7 +46,7 @@ const Table = () => {
     const renderBody = () => {
         return tabelleBL && tabelleBL.map(({ position, emblem, team, playedGames, won, lost, draw, goalsFor,goalsAgainst, goalDifference, points }) => {
             return (
-                <tr className="text-gray-100 px-4 bg-gray-800" key={position}>
+                <tr className="text-gray-100 px-4 bg-gray-800 text-xxs sm:text-xxs md:text-xs lg:text-sm xl:text-xl 2xl:text-2xl" key={position}>
                     <td>{position}</td>
                     <td><img src={team.crestUrl} height="18" width="18" alt="Eblem"/></td>                    <td>{team.name}</td>
                     <td>{playedGames}</td>

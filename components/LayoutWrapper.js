@@ -12,7 +12,9 @@ const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
          <div className="flex flex-col justify-between bg-gray-900 h-screen">
-        <header className="md:flex-wrap lg:flex items-center justify-center xl:justify-between py-10">
+
+           
+        <header className="flex items-center justify-between py-10">
           <div>
             <Link href="/" aria-label="Tailwind CSS Blog">
               <div className="flex items-center justify-between">
@@ -26,7 +28,7 @@ const LayoutWrapper = ({ children }) => {
           
                 </div>
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="h-6 text-gray-300 bg-red-700 text-xs xl:text-2xl font-semibold lg:block">
+                  <div className="h-6 text-gray-300 bg-red-700 text-xs md:text-xs lg:text-sm xl:text-2xl font-semibold lg:block">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (
@@ -36,13 +38,13 @@ const LayoutWrapper = ({ children }) => {
             </Link>
       
           </div>
-          <div className="flex items-center text-base leading-5">
+          <div className="flex-wrap items-center justify-between text-base leading-5">
             <div className="hidden lg:block ">
               {headerNavLinks.map((link) => (
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="p-1 font-ad font-medium text-xl text-gray-100 hover:text-yellwow-500 sm:p-4 dark:text-gray-100 hover:border-b hover:border-yellow-500 md:text-indigo md:text-2xl lg:text-pink-400 2xl:text-1xl xl:text-green-400 xl:text-2xl 2xl:text-blue-400 2xl:text-3xl"
+                  className="p-1 font-ad font-medium text-sm text-gray-100 hover:text-yellwow-500 sm:p-4 dark:text-gray-100 hover:border-b hover:border-yellow-500 md:text-indigo md:text-2xl lg:text-pink-400 2xl:text-1xl xl:text-green-400 xl:text-2xl 2xl:text-blue-400 2xl:text-3xl"
                 >
                   {link.title} 
                 </Link>

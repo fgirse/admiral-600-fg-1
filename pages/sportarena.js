@@ -5,10 +5,9 @@ import TabelleBL from "../components/TabelleBL";
 import axios from "axios";
 import StyledButton from "@/components/Buttons/ButtonOrange"
 import React, { useMemo } from "react";
-import Image from 'next-images';
-import StyledHeroSportarena from "@/components/HeroSportarena";
 import SVGSCFreiburgEmblem from "../components/icons/svg/SvgScFreiburg.js"
 import DataSCFreiburg from 'components/DataSCFreiburg.js'
+import { container } from "tailwindcss/defaultTheme";
 
 
 export  default class FetchDataUser extends React.Component {
@@ -43,31 +42,35 @@ export  default class FetchDataUser extends React.Component {
 
     return (
       <>
-      <div style={{"background-image": "url('/sportarena.jpeg')"}} className="bg-cover mx-auto border-t border-b border-yellow-400 w-full backgroundSize-100/200 bg-no-repeat lg:h-[200vh] lg:bg-no-repeat bg-center">
-      <div className=" container items-center max-w-7xl px-8 mx-auto xl:px-"></div>
-        </div>
       
+      <container className="max-w-sm w-11/12 mx-auto">
+        <div style={{"background-image": "url('/sportarena.jpg')"}} className="w-full h-[120vh] bg-cover border-t border-b border-yellow-400  bg-no-repeat">
     
-            <p className="mt-5 headingc text-center text-white xl:text-[7rem]">DIE SPORTARENA </p>
       
-            {/*<DataSCFreiburg></DataSCFreiburg>*/}
-      <div>
-          <p className="headingc text-4xl text-center text-white">Tisch reservieren?</p>
-      </div>  
-     
+        <p className="mt-5 headingc text-center text-white xl:text-[7rem]">DIE SPORTARENA </p>
+      
+      {/*<DataSCFreiburg></DataSCFreiburg>*/}
 
-      <p className="mt-5 mx-auto text-1xl text-gray-200 text-center font-sans">Saison vom <span className="text-yellow-500 font-bold" >{this.state.tabelle.startDate}</span> bis <span className="text-yellow-500 font-bold">{this.state.tabelle.endDate}</span></p>
-      <p className="mx-auto text-4xl text-gray-200 text-center font-sans">Die Bundesliga</p>
-      <p className="mx-auto text-2xl text-gray-200 text-center font-sans"><span className="text-yellow-500 font-bold" >{this.state.tabelle.currentMatchday}.</span> Spieltag</p>
-      <div className="mt-5 border border-yellow-500 w-10/12 mx-auto mb-24">
-        <TabelleBL></TabelleBL>
+      <div className="flex flex-col items-center justify-start">
+           <p className="mb-5 headingc text-4xl text-center text-white">Tisch reservieren?</p>
+           <StyledButton>Reservation</StyledButton>
+      </div>  
+              <p className="mt-5 mx-auto text-1xl text-gray-200 text-center font-sans xl:text-2xl">Saison vom <span className="text-yellow-500 font-bold" >{this.state.tabelle.startDate}</span> bis <span className="text-yellow-500 font-bold">{this.state.tabelle.endDate}</span></p>
+              <p className="mx-auto text-4xl text-gray-200 text-center font-sans xxl:text-4xl">Die Bundesliga</p>
+              <p className="mx-auto text-2xl text-gray-200 text-center font-sans xl:text-2xl"><span className="text-yellow-500 font-bold" >{this.state.tabelle.currentMatchday}.</span> Spieltag</p>
+         :     
+              <div className="container max-w-xs sm:max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg 2xl:max-w-6xl mt-5 text-xxs border border-yellow-500 w-10/12 md:w-11/12 xl:w-10/12 mx-auto mb-24">
+                  <TabelleBL></TabelleBL>
+              </div>
+
 
         </div>
-     
-        <div className="mt-5  flex flex-col items-center justify-start">
-      <StyledButton>Reservation</StyledButton>
-            </div>
-            </>
+          
+<div>
+</div>
+</container>
+  </>
     );
+  
+    }
   }
-}
