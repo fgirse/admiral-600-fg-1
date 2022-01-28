@@ -20,7 +20,7 @@ export default function MyModal() {
           onClick={openModal}
           className="w-max-lg text-1xl px-4 py-6 lg:text-4xl font-bold text-white bg-slate-300 hover:bg-slate-500 rounded-md bg-opacity-80 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
         >
-          Kartenillustration Altstadt 
+        Illustration Altstadt 
         </button>
       </div>
 
@@ -62,14 +62,14 @@ export default function MyModal() {
               <div className="inline-block w-full max-w-7xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-gray-800 bg-opacity-100 border border-white shadow-xl rounded-2xl">
                 <Dialog.Title
                   as="h3"
-                  className=" text-2xl text-center font-bold leading-6 text-gray-100 md:text-7xl lg:text-8xl"
+                  className="mt- text-2xl text-center font-bold leading-6 text-gray-100 md:text-7xl lg:mt5 lg:text-6xl"
                 >
                   Karte Altstadt Freiburg
                 </Dialog.Title>
-                <div className="mt-2">
-                <div className="mb-12 container items-center max-w-sm px-5 mx-auto mt-16 text-cente border border-gray-50 shadow-2xl shadow-gray-400">
+                <div className="mt-2 lg:mt-0">
+                <div className="p-5 mb-6 lg:mb-12 container items-center max-w-sm px-5 mx-auto mt-16 text-cente border border-gray-50 shadow-2xl shadow-gray-400">
                         <Image src="/MapFreiburg.png" alt="Illuustration Altstadt" height="900" width="955"/>
-                        <h1 className="mt-2 mb-10 text-gray-100 text-center text-2xl">Illusttration Altstadt Freiburg </h1>
+                        <h1 className="mt-2 mb-10 text-gray-100 text-center lg:text-2xl">Illusttration Altstadt Freiburg </h1>
                 </div>
                 </div>
 

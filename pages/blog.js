@@ -29,7 +29,7 @@ export default function Blog() {
         <div class="flex flex-col items-center md:flex-row">
 
             <div class="w-full space-y-5 md:w-3/5 md:pr-16">
-            <div className='absolute w-6/12 left-[46vw]  top-20 md:w-7/12 md:top-[10vh] left-[]] lg:absolute lg:w-1/12 left-[33vw] top-50' >
+            <div className='absolute w-6/12 left-[46vw]  top-20 md:w-7/12 md:top-[10vh] left-[]] lg:absolute lg:w-1/12 top-50' >
         <Image className='' src="/Albers_Illu_white.png" alt="ILLLustration" layout="responsive" height={195} width={208} />
       </div>
                 <p class="font-medium text-yellow-500 uppercase md:text-4xl">Networking ist in   ....</p>
@@ -42,8 +42,8 @@ export default function Blog() {
             <div class="w-full mt-16 md:mt-0 md:w-2/5">
                 <div class="relative z-10 h-auto p-8 py-10 overflow-hidden bg-yellow-400 border-b-2 border-gray-300 rounded-lg shadow-2xl px-7">
                     <h3 class="mb-6 text-2xl font-medium text-center">Anmeldung zum Blog</h3>
-                    <input type="text" name="email" class="block w-full px-4 py-3 mb-4 border border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-blue-500 focus:outline-none" placeholder="Email address"/>
-                    <input type="password" name="password" class="block w-full px-4 py-3 mb-4 border border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-blue-500 focus:outline-none" placeholder="Password"/>
+                    <input type="text" name="email" class="block w-full px-4 py-3 mb-4 border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-blue-500 focus:outline-none" placeholder="Email address"/>
+                    <input type="password" name="password" class="block w-full px-4 py-3 mb-4 border-2 border-transparent border-gray-200 rounded-lg focus:ring focus:ring-blue-500 focus:outline-none" placeholder="Password"/>
                     <div class="block">
                         <button class="w-full px-3 py-4 font-medium text-white bg-blue-600 rounded-lg">Log In</button>
                     </div>

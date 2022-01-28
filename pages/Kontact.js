@@ -12,7 +12,7 @@ export default function Kontact() {
 
             <section class=" mx-auto px-2 pt-5 bg-slate-800 md:px-0">
                 <div className="bg-green-100/10 rounded-2xl container items-center max-w-7xl px-8 mx-auto xl:p-3">
-                    <div className='mt-3 lg:mt-5 mx-auto w-6/12 md-7/12 lg:w-3/12 xl:w-3/12 2xl:w-3/12'>
+                    <div className='py-5 mt-3 lg:mt-5 mx-auto w-11/12 md-7/12 lg:w-3/12 xl:w-3/12 2xl:w-3/12'>
                         <Image className="" src="/LogoAlt.png" layout="responsive" alt="Logo alt" height="280" width="1049" />
                     </div>
                     
@@ -21,28 +21,27 @@ export default function Kontact() {
                         <h1 className="mt-2 mb-2 text-gray-100 text-center text-xs">Illustration Altstadt Freiburg </h1>
                         </div>
 
-                    <p className='headingc mt-1 text-center text-gray-50 text-5xl md:text-9xl lg:text-5xl'>WOHIN?</p>
+                    <p className='headingc mt-1 text-center text-gray-50 text-5xl md:text-7xl lg:text-9xl'>WOHIN?</p>
                     <div class="mt-12 container items-center max-w-6xl px-5 mx-auto space-y-6 text-center">
-                        <h1 className="text-3xl font-extrabold tracking-tight text-left text-gray-300 sm:text-5
-                        3xl md:text-3xl md:text-center">
+                        <h1 className="text-3xl font-extrabold tracking-tight text-left text-gray-300 lg:yellow-500 sm:text-5xl md:text-3xl md:text-center lg:text-6xl">
                             <span className="block">LAGEPLAN <span class="block mt-1 text-yellow-400 lg:inline lg:mt-0">Rettungsanker Freiburg</span></span>
                         </h1>
-                        <p className="w-full mx-auto text-base text-justify text-white md:max-w-md sm:text-lg lg:text-2xl xl:text-xl md:text-center">
-                            Adelhauserstrasse 7c<br />79098 Freiburg im Breisgau<br />öffentlicher Nahverkehr:
+                        <p className="w-full mx-auto text-sm text-left text-white md:max-w-md sm:text-lg lg:text-2xl xl:text-xl md:text-center">
+                            Adelhauserstrasse 7c<br />79098 Freiburg<br/>phone: 0761 3838 6747<br className='text-xxs'/>email: rettungsanker@.gmx.de
                         </p>
-                        <div className="flex flex-col border border-white  p-4 lg:flex lg:flex-row justify-around items-center">
+                        <div className="flex flex-col border border-white shadow-xl shadow-gray-500/70 p-4 lg:flex lg:flex-row justify-around items-center">
                             <div class
-                                className="w-56 h-24 lg:w-80 xl:w-80">
+                                className="bg-gray-300/10 py-4 px-2 rounded-2xl mb-2 w-40 h-20 lg:w-80 xl:w-80">
                                 <Image src="/VAG_Freiburg.png" layout="responsive" alt="Logo VAG-Freiburg" height="94" width="400" />
                             </div>
-                            <h1 className='text-3xl text-orange-300'>HALTESTELLE</h1>
-                            <h1 className='text-3xl text-orange-300'>Holzmarkt</h1>
-                            <h1 className='text-3xl text-orange-300'>Linie 1 3 und 5</h1>
+                            <h1 className='text-2xl md:text-2xl lg:text-3xl text-orange-400 '>Haltestelle:</h1>
+                            <h1 className='text-2xl lg:text-3xl text-orange-300'>Holzmarkt</h1>
+                            <h1 className='text-2xl lg:text-3xl text-orange-300'>Linie 1 3 + 5</h1>
 
                         </div>
 
 
-                        <p className="w-full mx-auto text-base text-justify text-gray-200 md:max-w-md sm:text-lg lg:text-2xl md:text-center">
+                        <p className="w-full mx-auto text-sm text-justify text-gray-200 md:max-w-md sm:text-lg lg:text-2xl md:text-center">
                             Sie finden uns entweder in der Kartenillustration der Freiburger Altstadt oder ganz professionell in der Karte von Street-Map !
                         </p>
                         <div className="mb-24 relative flex flex-col justify-center md:flex-row md:space-x-4">

@@ -25,7 +25,7 @@
 @layer components {
 
   .headingA {
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #ffffff ;
     font-family: "Architects Daughter";
   }

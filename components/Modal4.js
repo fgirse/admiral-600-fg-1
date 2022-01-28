@@ -61,7 +61,7 @@ export default function MyModal() {
               <div className="inline-block w-full max-w-7xl p-6 my-8 overflow-hidden text-left align-middle transition-all transform bg-gray-800 bg-opacity-100 border border-white shadow-xl rounded-2xl">
                 <Dialog.Title
                   as="h3"
-                  className=" mb- text-2xl text-center font-bold leading-6 text-gray-100 md:text-7xl lg:text-8xl"
+                  className=" text-2xl text-center font-bold leading-6 text-gray-100 md:text-7xl lg:mt-5 lg:text-6xl"
                 >
                   Open Street Map
                 </Dialog.Title>

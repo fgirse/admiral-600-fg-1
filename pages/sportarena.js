@@ -59,7 +59,7 @@ export  default class FetchDataUser extends React.Component {
               <p className="mx-auto text-4xl text-gray-200 text-center font-sans xxl:text-4xl">Die Bundesliga</p>
               <p className="mx-auto text-2xl text-gray-200 text-center font-sans xl:text-2xl"><span className="text-yellow-500 font-bold" >{this.state.tabelle.currentMatchday}.</span> Spieltag</p>
          :     
-              <div className="container max-w-xs sm:max-w-xs md:max-w-sm lg:max-w-md xl:max-w-lg 2xl:max-w-6xl mt-5 text-xxs border border-yellow-500 w-10/12 md:w-11/12 xl:w-10/12 mx-auto mb-24">
+              <div className="container  mt-5 text-xxs border border-yellow-500 w-10/12 md:w-11/12 xl:w-10/12 mx-auto mb-24">
                   <TabelleBL></TabelleBL>
               </div>
 

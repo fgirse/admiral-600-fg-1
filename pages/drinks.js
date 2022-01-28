@@ -19,9 +19,9 @@ export default function Drinks()  {
   
 <section className='w-11/12 mx-auto bg-slate-800'>
     <section className="text-white py-24 2xl:pt-40 2xl:pb-52">
-      <div className="container mx-auto px-4">
-        <div className='-mt-28 mx-auto w-2/12 h-12 md:w-3/12 lg:w-3/12 xl:w-2/12'>
-               <Image src="/LogoAlt.png" layout='responsive' height="250" width="980" alt="LogoAlt"></Image>
+      <div className="container mx-auto py-2 px-4">
+        <div className='p-4 mt-3 mx-auto w-2/12 h-12 md:w-3/12 lg:w-3/12 xl:w-2/12'>
+               <Image  className="hidden py-5" src="/LogoAlt.png" layout='responsive' height="250" width="980" alt="LogoAlt"></Image>
        </div>
      <div className="flex flex-wrap -mx-4">
       <div className="mt-24 w-full xl:w-1/3 2xl:w-1/3 px-4 mb-24 xl:mb-0">

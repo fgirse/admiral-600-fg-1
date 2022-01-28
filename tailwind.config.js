@@ -46,7 +46,12 @@ module.exports = {
         'contain': 'contain',
         '100/66': ['100%','66%'],
         '100/200': ['100%','200%'],
+        '25/35': ['25%', '35w%'],
         '16': '4rem',
+      },
+
+      backgroundPosition: {
+        'right': 'right top 5rem'
       },
 
       spacing: {
@@ -54,12 +59,12 @@ module.exports = {
       },
       
       fontSize: {
-        xxs: ['0.375', {lineHeight: '0.75rem'}], 
-        xs: ['0.75rem', { lineHeight: '1rem' }],
-        sm: ['0.875rem', { lineHeight: '1.25rem' }],
-        base: ['1rem', { lineHeight: '1.5rem' }],
-        lg: ['1.125rem', { lineHeight: '1.75rem' }],
-        xl: ['1.25rem', { lineHeight: '1.75rem' }],
+        'xxs': ['0.375rem', {lineHeight: '0.75rem'}], 
+        'xs': ['0.75rem', { lineHeight: '1rem' }],
+        'sm': ['0.875rem', { lineHeight: '1.25rem' }],
+        'base': ['1rem', { lineHeight: '1.5rem' }],
+        'lg': ['1.125rem', { lineHeight: '1.75rem' }],
+        'xl': ['1.25rem', { lineHeight: '1.75rem' }],
         '2xl': ['1.5rem', { lineHeight: '2rem' }],
         '3xl': ['1.875rem', { lineHeight: '2.25rem' }],
         '4xl': ['2.25rem', { lineHeight: '2.5rem' }],
