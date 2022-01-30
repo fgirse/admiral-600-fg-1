@@ -3,6 +3,7 @@ import StyledButton from '@/components/Buttons/Button';
 import Flensburger from '../components/icons/svg/SVGFlensburger';
 import Ganter from '../components/icons/svg/SVGGanter';
 import Astra from '../components/icons/svg/SVGAstra';
+import Skyline from "../components/icons/svg/SVGskyline"
 import { Heading0 } from '../components/Headings/Heading0.styles';
 import { Heading1 } from '../components/Headings/Heading1.styles';
 import { Heading2 } from '../components/Headings/Heading2.styles';
@@ -46,37 +47,31 @@ export default function Home() {
   return (
     <>
 
- <section className='ml-2 p-3 mx-auto lg:w-12/12'>
+ <section className='container w-max-2xl w-full ml-2 p-3 mx-auto lg:w-12/12'>
   
 
+    <div style={{"background-image": "url('/Hero.png')"}} className="hidden lg:block lg:bg-cover bg-center mx-auto border-t border-b border-yellow-400 bg-logo h-[10vh] w-full bg-100/66 bg-no-repeat lg:h-[66vh] lg:bg-no-repeat lg:bg-100/66 lg:bg-hero">
+  </div>
+<div style={{"background-image": "url('hero2.png')"}} className="bg-[length:100vw_55vh] mx-auto bg-no-repeat h-[70vh] lg:hidden">
+  </div>
     
- <div style={{"background-image": "url('/Hero.png')"}} className="hidden lg:block lg:bg-cover bg-center mx-auto border-t border-b border-yellow-400 bg-logo h-[50vh] w-full bg-100/66 bg-no-repeat lg:h-[66vh] lg:bg-no-repeat lg:bg-100/66 lg:bg-hero">
- < p classNames="headingc text-1xl text-orange-300 md:text-2xl lg:text-4xl xl:text-5xl">Dein Treffpunkt in Freiburg!!!</p>
-
+  </section>
+  <div className="hidden lg:block bg-yellow-500 w-11/12 mx-auto "> 
+  <Skyline width="100%" height="14vh"></Skyline>
  </div>
- <div style={{"background-image": "url('/Logo_Neu.png')"}} className="bg-contain mx-auto border-t border-b border-yellow-400 lg:hidden bg-logo h-[50vh] w-full bg-100/66 bg-no-repeat lg:h-[66vh] lg:bg-no-repeat lg:bg-100/66 lg:bg-hero">
- < p classNames="headingc text-1xl text-orange-300 md:text-2xl lg:text-4xl xl:text-5xl">Dein Treffpunkt in Freiburg!!!</p>
 
- </div>
-    
-    
-  
-   
-
-
-
-   
-                 
-                 </section>
-
-
+<div className="mx-auto w-11/12 h-36">
+<h1 className="hidden lg:block p-2 text-center headingD absolute w-11/12 top-[-vh] text-3xl text-white xl:text-6xl font-bold">Dein Treffpunkt in Freiburg !!!</h1>
+</div>
+ 
 {/*======================================================================= SDCTION A ===========================================================*/}
-<section className='-mt-[25vh] ml-6 md:mx-auto md:mt-36 lg:-mt-36 xl:mt-1 w-11/12 '>
+<section className='mt-[-33vh] w-12/12 mx-auto md:mt-36 lg:-mt-36 xl:mt-1'>
+ 
 
 
-<div className="mt-4 flex flex-wrap -mx-4 -mb-4 md:mb-0 md:gap-x-5 lg:gap-x-36">
+<div className="w-11/12 flex flex-wrap justify-center -mb-4 md:mb-0 md:gap-x-5 lg:gap-x-36">
   {/*======================================================================================================*/}
-  <div className=" w-full md:w-3/12 px-4 mb-4 sm:mt-48 md:mt-36 md:mb-0 lg:w-2/12 p-2">
+  <div className="mx-auto w-full md:w-6/12 px-4 mb-4 sm:mt-48 md:mt-36 md:mb-0 lg:w-2/12 p-2">
   
                 <p className="text-center text-3xl sm:text-5xl md:p-3  md:text-4xl lg:text-1xl xl:text-3xl font-bold uppercase text-yellow-500">öffnungszeiten</p>
                 <p className="text-center mt-2 text-1xl sm:text-2xl md:text-5xl  text-gray-300 lg:text-l xl:text-xl">Montag bis Donnerstag: 18 bis 24 Uhr</p>
@@ -91,13 +86,13 @@ export default function Home() {
           {/*==================================================================================================================================*/}
 
 
-  <div className="mt-5 w-11/12 mx-auto sm:w-11/12 md:w-8/12 px-20 mb-4 md:mb-0">
-              <div  className="max-w-sm w-full mx-auto bg-red-900 h-full rounded-lg border shadow-xl shadow-stretch sm:max-w-lg md:max-w-6xl lg:bg-red-900 xl:bg-red-900 xl:max-w-5xl ">
-                           <div className='mt-12 ml-2 mr-1 w-3/12 float-left sm:w-4/12 sm:p-3'>
+  <div className="mt-5 w-12/12 ml-6  sm:w-11/12 md:w-8/12 px-20 mb-4 md:mb-0">
+              <div  className="w-80 ml-2 bg-red-900 h-full rounded-lg border shadow-xl shadow-stretch sm:max-w-lg md:max-w-6xl lg:bg-red-900 xl:max-w-5xl ">
+                           <div className='mt-12 ml-2 mr-2 w-3/12 float-left sm:w-4/12 sm:p-3'>
                                     <Image src="/portrait-mick1.png" alt="Portrait" layout="responsive" height={133}width={100}/>                         
                                     </div>
                                     <div>
-                                    <h5 className="mb-3 text-3xl sm:text-5xl sm:mt-12 xl:text-6xl xl:mt-5 font-bold tracking-tight text-yellow-600 dark:text-white">"Moin - Moin"</h5>
+                                    <h5 className="mt-5 justify w-full mb-3 text-3xl sm:text-5xl sm:mt-12 xl:text-6xl xl:mt-5 font-bold tracking-tight text-yellow-600 dark:text-white">"Moin - Moin"</h5>
                                     
                            
                            <p className="mb-10 z-30 relative text-md p-x-4 mx-3 lg:text-xl xl:text-2xl font-normal text-gray-100 dark:text-gray-400">In Hommage an eine typische Kiez-Kneipe auf St.Pauli, haben wir im Herzen von Freiburg ein Lokal eröffnet, welches es so südlich der Elbe wohl kein zweites Mal gibt. Ausgebaut im Stile eines Schiffrumpfes, ist der im Herzen der Altstadt gelegene Rettungsanker-Freiburg idealer Treffpunkt um nach Feierabend nette und interessante Menschen kennenzulernen. Wir sind stolz auf unser buntes, internationales Publikum. Unser Rettungsanker ist auch ideale Location zur Durchführung Ihres privaten oder geschäftlichen Events. Sprechen Sie uns an oder kontaktieren Sie uns vor Ort oder schreiben Sie uns eine email. Wir freuen uns Sie im Rettungsanker begrüsssen zu dürfen <br /><br />Michael Schreck und das Team des Rettungsanker.</p>
@@ -117,23 +112,23 @@ export default function Home() {
 </section>
 {/*========================== ENDE SECTION A ===================================================*/}
  
-<h1 className='headingB relative mt-24 left-28 z-50 text-[4rem] text-yellow-500 text-center lg:headingA   a lg:text-[10rem]'>Die Kneipe</h1>
+<h1 className='headingB relative mt-36 left-1 z-50 text-[4rem] text-yellow-500 text-center lg:headingA   a lg:text-[10rem]'>Die Kneipe</h1>
        <div className='w-5/12 absolute right-7 transform -translate-y-8 md:w-6/12 md:right-16 lg:w-3/12 xl:w-3/12 float-right md:transform md:-translate-y-48 xl:transforn z-20 xl:-translate-y-[60vh]' >
         <Image className='absolute' src="/Astraballons.png" alt="astraballons" layout="responsive" height={2064} width={1739} />
       </div>
    
-      <div className='w-7/12 z-10 md:absolute -left-8  transform -translate-y-80 md:w-2/12 xl:w-4/12 xl:transform:-translate-y-[80vh]'>
+      <div className='w-7/12 z-10 md:absolute -left-8  transform -translate-y-56 md:w-2/12 xl:w-4/12 xl:transform:-translate-y-[80vh]'>
         <Image src="/lighthousebw.svg" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
       
-      <div className='absolute w-2/4 left-5  md:2/12 transform -translate-y-80 md:transform:-translate-y-96 lg:w-2/12 xl:transform xl:-translate-y-[35vh]' >
+      <div className='absolute w-2/4 left-5  md:2/12 transform -translate-y-56 md:transform:-translate-y-96 lg:w-2/12 xl:transform xl:-translate-y-[35vh]' >
         <Image src="/rettungsring.png" alt="illustration" layout="responsive" height={473} width={473} />
       </div>
-      <div className=' transform -translate-y-36 right-8 absolute w-5/12  md:transform:-translate-y-24 lg:transform lg:-transform: lg:translate-y-96' >
+      <div className=' transform -translate-y-24 right-8 absolute w-5/12  md:transform:-translate-y-24 lg:transform lg:-transform: lg:translate-y-96' >
         <Image src="/Graffity_StPauli.png" alt="llustration" layout="responsive" height={473} width={473} />
       </div>
 
-      <section className='mt-12 ml-3 md:mt-36 mx=auto w-11/12 lg:mt-60 xl:-mt-[45vh]'>
+      <section className='-mt-16 ml-3 md:mt-36 mx=auto w-11/12 lg:mt-60 xl:-mt-[45vh]'>
         <ThemeProvider theme={theme}>
           <div className="mx-auto grid grid-cols-1 gap-1 justify-center items-center p-2 place-content-center mt-24 md:grid lg:mt-96 lg:ml-24 xl:ml-24 lg:grid-cols-3 lg:justify-around lg:items-center lg:gap-16" >
 
@@ -203,15 +198,15 @@ export default function Home() {
 
       </section>
 
-      <h1 className='z-20 relative headingB mt-5 text-[4rem] text-center text-gray-50 lg:headingA lg:text-yellow-500 lg:text-[6em] lg:mt-96'>Impressionen Rettungsanker</h1>
-        <div className='-mt-32 w-3/12 lg:w-2/12 lg:p-8 absolute lg:transform lg:-translate-y-36 xl:transform xl-translate-y-24'>
+      <h1 className='z-20 relative headingB mt-10 text-[2rem] text-center text-gray-50 lg:headingA lg:text-yellow-500 lg:text-[6em] lg:mt-96'>Impressionen Rettungsanker</h1>
+        <div className='-mt-36 w-3/12 lg:w-2/12 lg:p-8 absolute lg:transform lg:-translate-y-36 xl:transform xl-translate-y-24'>
         <Image src="/Albers_Illu_white.png" top-5 alt="Impressionen" height="208 " width="195" layout="responsive" />
       </div>                                    
      
 
 
 
-      <section className='-mt-12 ml-2 mx=auto w-11/12'>
+      <section className='-mt-36 ml-2 mx=auto w-11/12'>
         <ThemeProvider theme={theme}>
           <div className="place-content-center mt-48 ml-3 px-1 mx-center grid-cols-1 justify-center items-center md:ml-24 md:grid md:grid-cols-3 md:gap-1 md:justify-center md:items-center lg:gap-10 lg:ml-36 xl:mt-24" >
 
@@ -232,7 +227,7 @@ export default function Home() {
                 <Image src="/Impress01.jpg" alt="Impressionen" height="168 " width="300" layout="responsive" />
               </div>
               <Text>
-              <p className="mt- text-center font-bold text-5xl md:text-4xl ">Impressionen</p>
+              <p className="mt- text-center font-bold text-4xl md:text-4xl ">Impressionen</p>
               </Text>
             </Card>
 
@@ -252,7 +247,7 @@ export default function Home() {
                 <Image src="/Impress02.jpg" alt="Impressionen" height="168 " width="300" layout="responsive" />
               </div>
               <Text>
-              <p className="mt- text-center font-bold text-5xl md:text-4xl ">Impressionen</p>
+              <p className="mt- text-center font-bold text-4xl md:text-4xl ">Impressionen</p>
               </Text>
             </Card>
 
@@ -273,7 +268,7 @@ export default function Home() {
                 <Image src="/Impress03.jpg" alt="Impressionen" height="168 " width="300" layout="responsive" />
               </div>
               <Text>
-              <p className="mt- text-center font-bold text-5xl ">Impressionen</p>
+              <p className="mt- text-center font-bold text-3xl ">Impressionen</p>
               </Text>
             </Card>
           </div>
@@ -287,7 +282,7 @@ export default function Home() {
           <hr className='w-48 mt-12 mx-auto md:w-9/12'/>
                 
           <div className="w-36 mt-6 md:mt-20 mx-auto md:w-2/12 lg:m">
-          <Image  src="/Logo_neu.png" alt="LogoNeu" layout="responsive" height="1060" width="1920"/>
+          <Image  src="/LogoNeu.png" alt="LogoNeu" layout="responsive" height="1060" width="1920"/>
           </div>
                 
           <h1 className='headingB text-white mt-2 text-[4rem] text-center lg:headingA lg:text-[10rem] lg:text-gray-600'>Impressum</h1>

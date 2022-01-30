@@ -39,7 +39,14 @@
     -webkit-text-stroke-color: orange;
     font-family: "Architects Daughter";
   }
-
+  
+  
+  .headingD {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #595959;
+    font-family: "Architects Daughter";
+    font-weight: extrabold;
+  }
 }
 
 html {

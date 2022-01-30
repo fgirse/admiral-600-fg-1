@@ -8,10 +8,8 @@ import LogoAlt from '../components/icons/svg/logoAlt';
 
 const team = () => {
   return (
-  
-        <>
-      <StyledHeroTeam>
-
+  <>
+      
       
         <section className="mx-auto w-11/12 py-12 px-6 text-center md:py-4 md:px-4">
  
@@ -42,7 +40,7 @@ const team = () => {
 </section>
         
         
-      </StyledHeroTeam>
+
    
       
     

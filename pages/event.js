@@ -219,14 +219,14 @@ function event() {
 <section className="mx-auto mb-12 px-2 py-5 w-11/12 bg-slate-700 md:px-0 rounded-2xl">-
   <div className="container -mt-32 rounded-2xl h-11/12 bg-yellow-200/10 items-center max-w-7xl px-8 mx-auto xl:px-5">
   
-  <p className="mt-16 headingB py-8 text-center text-gray-100 md:text-5xl lg:text-7xl lg:py-8 ">Dein Event</p>
+  <p className="mt-16 headingB py-4 text-center text-gray-100 sm:text-6xl md:text-5xl lg:text-7xl lg:py-8 ">Dein Event</p>
   <div className='mx-auto w-10/12 sm:w-5/12 md:w-2/12  lg:w-4/12 lg:-mt-8 xl:w-3/12'>
                   <Image src="/LogoAlt.png" layout="responsive" alt="Logo-alt " width="1049" height="230" />
                 </div>
                 <div className='mt-12 mx-auto rounded-x sm:w-3/12 lg:mt-0 lg:transform lg:rotate-[60deg] lg:transform: lg:-skew-y-[60deg] lg:w-2/12 xl:4/12'>
                   <Image src="/piano1.png" layout="responsive" alt="Piano " width="105" height="102" />
                 </div>
-                <div className='mx-auto absolute transform -translatey-20 w-4/12 lg:mt-0 lg:transform lg:w-2/12 xl:4/12'>
+                <div className='mx-auto absolute transform -translatey-20 md:transform -translatey-20w-4/12 -translate-y-820lg:mt-0 lg:transform lg:w-2/12 xl:4/12'>
                   <Image src="/noten.png" layout="responsive" alt="Noten" width="105" height="102" />
                 </div>
                 
