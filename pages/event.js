@@ -226,7 +226,7 @@ function event() {
                 <div className='mt-12 mx-auto rounded-x sm:w-3/12 lg:mt-0 lg:transform lg:rotate-[60deg] lg:transform: lg:-skew-y-[60deg] lg:w-2/12 xl:4/12'>
                   <Image src="/piano1.png" layout="responsive" alt="Piano " width="105" height="102" />
                 </div>
-                <div className='mx-auto absolute transform -translatey-20 md:transform -translatey-20w-4/12 -translate-y-820lg:mt-0 lg:transform lg:w-2/12 xl:4/12'>
+                <div className='mx-auto absolute top-[60vh] md:transform -translatey-20w-4/12 -translate-y-820lg:mt-0 lg:transform lg:w-2/12 xl:4/12'>
                   <Image src="/noten.png" layout="responsive" alt="Noten" width="105" height="102" />
                 </div>
                 

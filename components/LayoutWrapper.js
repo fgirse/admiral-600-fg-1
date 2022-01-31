@@ -1,34 +1,29 @@
 import siteMetadata from '@/data/siteMetadata'
-import Logo from '@/data/SvgLogoNeu'
-import Link from './Link'
 import headerNavLinks from '@/data/headerNavLinks'
+import Logo from '@/data/logo.svg'
+import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
-import Image from 'next/image'
-import Phone from'../components/icons/svg/phoneillustra';
+import LogoNeu from'../components/icons/svg/SvgLogoNeu'
+import { PhoneIcon } from '@heroicons/react/solid'
+
 const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
-         <div className="flex flex-col justify-between bg-gray-900 h-screen">
-
-           
+      <div className="flex flex-col justify-between bg-gray-900 h-screen">
         <header className="flex items-center justify-between py-10">
           <div>
-            <Link href="/" aria-label="Tailwind CSS Blog">
+            <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
-                <div className="mr-3 xl-w-36">
-                  <Logo />
+                <div className="mr-3">
+                  <LogoNeu />
+                
                 </div>
-                <div className="flex flex-col lg:flex lg:flex-row gap-x-3 justify-start items-strech" >
-          <div className='bg-[#ccff00] w-6 mr-5 xl:w-10'>
-          <Image src="/phone-Illustration.png" layout="responsive" width="145" height="145"></Image>
-          </div>
-          
-                </div>
+                <PhoneIcon className='hidden sm:block text-yellow-400 w-8 h-8'></PhoneIcon>
                 {typeof siteMetadata.headerTitle === 'string' ? (
-                  <div className="h-6 text-gray-300 bg-red-700 text-xs md:text-xs lg:text-sm xl:text-2xl font-semibold lg:block">
+                  <div className="hidden h-6 text-slate-300 hover:text-yellow-400 text-1xl font-semibold sm:block">
                     {siteMetadata.headerTitle}
                   </div>
                 ) : (
@@ -36,17 +31,16 @@ const LayoutWrapper = ({ children }) => {
                 )}
               </div>
             </Link>
-      
           </div>
-          <div className="flex-wrap items-center justify-between text-base leading-5">
-            <div className="hidden lg:block ">
+          <div className="flex items-center text-base leading-5">
+            <div className="hidden sm:block">
               {headerNavLinks.map((link) => (
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="p-1 font-ad font-medium text-sm text-gray-100 hover:text-yellwow-500 sm:p-4 dark:text-gray-100 hover:border-b hover:border-yellow-500 md:text-indigo md:text-2xl lg:text-pink-400 2xl:text-1xl xl:text-green-400 xl:text-2xl 2xl:text-blue-400 2xl:text-3xl"
+                  className="p-1 font-medium text-gray-900 sm:p-4 dark:text-gray-100 2xl:text-2xl"
                 >
-                  {link.title} 
+                  {link.title}
                 </Link>
               ))}
             </div>
