@@ -5,7 +5,7 @@ import TabelleBL from "../components/TabelleBL";
 import axios from "axios";
 import StyledButton from "@/components/Buttons/ButtonOrange"
 import React, { useMemo } from "react";
-import SVGSCFreiburgEmblem from "../components/icons/svg/SvgScFreiburg.js"
+import SVGSCFreiburgEmblem from "../components/icons/svg/SVGScFreiburg.js"
 import DataSCFreiburg from 'components/DataSCFreiburg.js'
 import { container } from "tailwindcss/defaultTheme";
 

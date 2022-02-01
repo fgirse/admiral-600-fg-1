@@ -2,7 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { StyledButton } from "@/components/Buttons/Button.styles"
-import SVGSCFreiburgEmblem from "../components/icons/svg/SvgScFreiburg.js"
+import SVGSCFreiburgEmblem from "../components/icons/svg/SVGScFreiburg.js"
 import DataSCFreiburg from 'components/DataSCFreiburg.js'
 import LogoAlt from '../components/icons/svg/logoAlt';
 
@@ -11,8 +11,9 @@ const team = () => {
   <>
       
       
-        <section className="mx-auto w-11/12 py-12 px-6 text-center md:py-4 md:px-4">
- 
+        <section className="mx-auto w-12/12 py-12 px-1 text-center md:py-4 md:px-4">
+
+        <div style={{"background-image": "url('/IllustrMaritim.png')"}} className="h-full lg:bg-cover bg-center mx-auto border-t border-b border-yellow-400  bg-repeat-none w-full  lg:h-[260vh] bg-[length:100/66 l">
         <div className='md:w-10/12 mx-auto'>
            <p className='mt-24 headingB text-center text-gray-100 text-[3rem] lg:mt-28 lg:font-black lg:headingc lg:text-[8rem]'>DAS TEAM</p>
         </div>
@@ -37,6 +38,18 @@ const team = () => {
                 <p className="mt-4 text-1xl xl:text-1xl text-gray-300 leading-relaxed xl:text-2xl ">Auch Anne ist Teammitglied derersten Stunde nach Stapelablauf des Rettungsanker-Mit Ihrer langjährigen Gastroerfahrung  ist sie ein wichtiger Pfeiler im Team des Rettungsankers</p>
               </div>
             </div>
+
+                          </div>
+
+
+
+
+
+
+
+
+
+
 </section>
         
         
