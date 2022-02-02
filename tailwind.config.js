@@ -160,8 +160,8 @@ module.exports = {
 
         gridTemplateColumns: {
                    // Complex site-specific column configuration
-          'drinks': '5% fr fr 10%',
-        },
+          'bierGallerie': 'repeat(autofill,minmax(200px,1fr))',
+       },
 
         dark: {
           css: {

@@ -78,7 +78,7 @@ export default function Home() {
 </div>
  
 {/*======================================================================= SDCTION A ===========================================================*/}
-<section className='-mt-[60vh]'>
+<section className='mt-[60vh]'>
 <div className='w- mx-auto flex flex-col items-center justify-center lg:flex-row lg:justify-around lg:items-center'>
 
 <div className="p-6 max-w-sm lg:max-w-lg lg:w-full h-40 bg-slate-800 rounded-lg border border-gray-900 shadow-md shadow-gray-500/50 dark:bg-gray-800 dark:border-gray-700">
@@ -148,7 +148,7 @@ export default function Home() {
         </div>
        
         <ThemeProvider theme={theme}>
-          <div className=" mx-auto grid grid-cols-1 gap-1 justify-center items-center p-2 md:p-6  md:grid-cols-2 lg: lg:mt-96 lg:ml-24 xl:ml-24 lg:grid-cols-3 lg:justify-around lg:item11s-center lg:gap-16" >
+          <div className=" mx-auto max-w-8xl grid grid-cols-1 gap-1 justify-center items-center p-2 md:p-6  md:grid-[biergalerie]-cols-2 lg: lg:mt-96 lg:ml-24 xl:ml-24 lg:grid-[]repeat, autofill (250px,1fr) lg:justify-around lg:item11s-center lg:gap-16" >
 
           <Card
           className='justify-self-center'
@@ -164,7 +164,7 @@ export default function Home() {
               }} onGotPointerCapture={2}
             >
               <div className='mx-auto border- border-gray-100'>
-                <Astra aspect-ratio="16:9" height="24vh" width=""></Astra>
+                <Astra aspect-ratio="16:9" object-fit="contain" width="100%"></Astra>
               </div>
               <Text>
                 <p className="mt-10 text-2xl text-center text uppercase font-bold" >Astra Bier</p>
@@ -185,7 +185,7 @@ export default function Home() {
               }} onGotPointerCapture={2}
             >
               <div className='mx-auto border- border-gray-100'>
-                <Ganter aspect-ratio="16:9" height="24vh" width="vw"></Ganter>
+                <Ganter aspect-ratio="16:9" object-fit="contain" width="100%"></Ganter>
               </div>
               <Text>
                 <p className="mt-10 text-2xl text-center text uppercase font-bold" >Ganter Bier</p>
@@ -205,7 +205,7 @@ export default function Home() {
               }} onGotPointerCapture={2}
             >
               <div className='mx-auto border- border-gray-100'>
-                <Flensburger aspect-ratio="16:9" height="24vh" width="vw"></Flensburger>
+                <Flensburger aspect-ratio="16:9" object-fit="contain" width="100%"></Flensburger>
               </div>
               <Text>
                 <p className="mt-10 text-2xl text-center text uppercase font-bold">Flensburger</p>

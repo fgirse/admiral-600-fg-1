@@ -46,14 +46,11 @@ const Table = () => {
     const renderBody = () => {
         return tabelleBL && tabelleBL.map(({ position, emblem, team, playedGames, won, lost, draw, goalsFor,goalsAgainst, goalDifference, points }) => {
             return (
-
-
-                <container  className="container w-max-sm ">
-                                         <tr className="text-gray-100 px-4 bg-gray-800 text-xxs sm:text-xxs md:text-xs lg:text-sm xl:text-xl 2xl:text-2xl" key={position}>
+                <tr className="text-gray-100 px-4 bg-gray-800" key={position}>
                     <td>{position}</td>
-                    <td><img src={team.crestUrl} height="18" width="18" alt="Eblem"/></td> 
-                     <td>{team.name}</td>
+                    <td><img src={team.crestUrl} height="18" width="18" alt="Eblem"/></td>                    <td>{team.name}</td>
                     <td>{playedGames}</td>
+
                     <td>{won}</td>
                     <td>{lost}</td>
                     <td>{draw}</td>
@@ -61,11 +58,11 @@ const Table = () => {
                     <td>{goalsAgainst}</td>
                     <td>{goalDifference}</td>
                     <td>{points}</td>
-              
-                    
+                                
                 </tr> 
 
-                </container>
+
+
 
 
 
@@ -77,19 +74,19 @@ const Table = () => {
 
     return (
         <>
-            {/*<h1 className="text-white" id='title'>React Table</h1>*/}
-            
+        {/*<h1 className="text-white" id='title'>React Table</h1>*/}
+        
 
 
-            <table className="w-full" h-full id='tabelleBL'>
-                <thead>
-                    <tr className="mr-1 text-white text-xl px-4 bg-yellow-600">{renderHeader()}</tr>
-                </thead>
-                <tbody className="text-white text-xl bg-gray-800 opacity-80">
-                    {renderBody()} 
-                </tbody>
-            </table>
-        </>
+        <table className="w-full" h-full id='tabelleBL'>
+            <thead>
+                <tr className="mr-1 text-white text-xl px-4 bg-yellow-600">{renderHeader()}</tr>
+            </thead>
+            <tbody className="text-white text-xl bg-gray-800 opacity-80">
+                {renderBody()} 
+            </tbody>
+        </table>
+    </>
     )
 }
     
