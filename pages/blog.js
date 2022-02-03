@@ -23,14 +23,14 @@ export default function Blog() {
     <>
       
 {/*} Section 1 */} 
-<section class="w-full px-8 py-16 bg-gray-800 xl:px-8 min-h-[70vh]">
+<section class="w-full px-8 py-32 bg-gray-800 xl:px-8 min-h-[70vh]">
     <div class="max-w-5xl mx-auto">
     
         <div class="flex flex-col items-center lg:flex-row md:mt-16 lg:mt-16">
 
             <div class="w-full space-y-5 md:w-4/5 md:pr-16">
-            <div className='absolute w-4/12 left-[63vw]  top-[20vh] sm:top-[25vh] sm:4/12 md:w-3/12 md:left[-54vw]$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ md:top-[18vh] lg:top-[25vh] lg:left-[40vw] lg:absolute lg:w-48 top-50' >
-        <Image className='' src="/Albers_Illu_white.png" alt="ILLLustration" layout="responsive" height={195} width={208} />$
+            <div className='absolute w-5/12 left-[60vw]  top-[16vh] sm:top-[25vh] sm:4/12 md:w-3/12 md:left[-54vw] md:top-[15vh] lg:top-[23vh] lg:left-[43vw] lg:absolute lg:w-48 lg:top-33 xl:top-[20]' >
+        <Image className='' src="/Albers_Illu_white.png" alt="ILLLustration" layout="responsive" height={195} width={208} />
       </div>
                 <p class="font-medium text-yellow-500 uppercase md:text-4xl">Networking ist in   ....</p>
                 <h2 class="text-2xl font-extrabold leading-none text-gray-300 sm:text-3xl md:text-6xl">
